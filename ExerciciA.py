@@ -12,5 +12,17 @@ df = pd.DataFrame(lector)
 #print(df.loc[df['location']=='Albania'] & (df.date.isin(['2020-02-24','2020-12-31'])))
 #print(df.loc[df['location']=='Albania'])
 #print(df.loc[df['date'] == '2020-02-24'])
-print(df['date'] > '2020-02-24') & (df['date'] <= '2020-12-31')
+print(df.loc[df['location'] == 'Afghanistan'], ['date'] == )
+print(df.loc[df['location'] == 'Albania'])
+print(df.loc[df['location'] == 'Algeria'])
+print(df.loc[df['location'] == 'Armenia'])
+print(df.loc[df['location'] == 'Barbados'])
+print(df.loc[df['location'] == 'Bulgaria'])
+print(df.loc[df['location'] == 'Comoros'])
+
+print(df.loc[df['location'] == 'Denmark'])
+
+print(df.loc[df['location'] == 'Falkland'])
+
+print(df.loc[df['location'] == 'France'])
 #MostrarCasos()
