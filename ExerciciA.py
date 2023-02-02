@@ -46,10 +46,17 @@ mes = df['date'].dt.month.head(10)
 
 mes1 = df['date'].dt.month
 afg = df['location'] == 'Afghanistan'
+albania = df['location'] == 'Albania'
 
 casos = df.groupby([afg, mes1])['total_cases'].sum()
 
+
+casas = df.groupby([afg])
+
+
+print(casas)
+
 #print(fechas)
-print(casos)
+#print(casos)
 
 #MostrarCasos()
